@@ -22,3 +22,9 @@ function appendKitten(name){
   catArr.push(name)
 return catArr
 }
+
+function prependKitten(name){
+  var catArr = kittens.slice("")
+  catArr.shift(name)
+  return catArr
+}
