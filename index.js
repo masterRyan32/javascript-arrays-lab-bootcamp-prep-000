@@ -25,6 +25,6 @@ return catArr
 
 function prependKitten(name){
   var catArr = kittens.slice("")
-  catArr.shift(name)
+  catArr.unshift(name)
   return catArr
 }
