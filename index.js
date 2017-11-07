@@ -34,3 +34,9 @@ function removeLastKitten(){
   catArr.pop()
   return catArr
 }
+
+function removeFirstKitten(){
+  var catArr = kittens.slice("")
+  catArr.shift()
+  return catArr
+}
